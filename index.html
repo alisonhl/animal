@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html lang="es">  
+  <head>
+    <title>AppDeGatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="proyecto/css/principal.css" rel="stylesheet">
+  </head>
+  <body background="https://marketplace.canva.com/EAE8EbBGPxU/1/0/1600w/canva-fondo-de-pantalla-gratis-kawaii-aesthetic-rosa-ucGh0M5UIzQ.jpg">
+    <h2>AppDeGatos</h2>
+    <main>
+    <h3>Imágenes de Gatos:</h3>
+    <!--Agregar enlace a imágenes de gatos-->
+    <p>Haz clck aquí para ver mas <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</p> 
+    <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg" class="imagen-de-gatos" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+    <hr>
+    <h3>Listas de Gatos</h3>
+    <div>
+    <p>Cosas que los gatos <em>aman</em></p>
+
+    <ul>
+      <li>Menta gatuna</li>
+      <li>Apuntadores láser</li>
+      <li><s>Lasaña</s></li>
+    </ul>
+    <img src="proyecto/img/lasana.jpg" id="imagen-de-gatos" alt="lasaña">
+
+    <p>Cosas que los gatos <strong>odian</strong>:</p>
+    <ol>
+      <li>Tratamientos antipulgas</li>
+      <li>Truenos</li>
+      <li>Otros gatos</li>
+    </ol>
+  </div>
+    <img src="proyecto/img/gatos.jpg" class="imagen-de-gatos" width="320" height="250">
+
+    <form action="/enviar-respuesta">
+      <!--botones de radio-->
+      <label for="interior"><input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior</label>
+      <br>
+      <label for="exterior"><input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior</label>
+      <br>
+      <!--casilas de verificacion-->
+      <label for="carinoso"><input id="cariñoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso </label><br>
+      <label for="Perezoso"><input id="Perezoso" type="checkbox" values="Perezoso" name="personalidad">Perezoso</label><br>
+      <label for="Energico"><input id="Energico" type="checkbox" value="Energico" name="personalidad">Enérgico</label><br>
+      <hr>
+      <!--Texto y boton enviar-->
+      <h1>Ingrese nombre</h1>
+      <input type="text" placeholder="Ingrese nombre" required>
+      <h1>Ingrese apellido</h1>
+      <input type="text" placeholder="Ingrese apellido" required>
+      <h1>Ingrese Sueldo</h1>
+      <input type="text" placeholder="Ingrese sueldo" required>
+      <br>
+      <button type="submit">Enviar </button>
+
+    </form>
+    <form action="proyecto/html/animal.html">
+      <br>
+      <button type="submit">Animalito</button>
+    </form>
+  </main>
+<footer>
+  <p><small>Sin derechos de Autor -<a href="https://www.freecodecamp.org/espanol/">alisonluna.org</a></small></p>
+</footer>
+</body>
+ </html>

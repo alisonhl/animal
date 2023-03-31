@@ -1,0 +1,43 @@
+li {
+    color:darkgreen;
+    font-size: 15px;
+  }
+  
+  h2{
+    font-family: 'Titan One', cursive;
+    color:teal;
+    font-size: 50px;
+  }
+  
+  h3{
+    font-family: 'Pacifico', cursive;
+    color:darksalmon;
+  }
+  
+  a {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  p {
+    font-family: 'Delicious Handrawn', cursive;
+    color:dodgerblue;
+  }
+  
+  .imagen-de-gatos {
+    width: 250px;
+    border-width: 5px;
+    border-color:crimson;
+    border-style: solid dotted;
+  }
+  
+  #imagen-de-gatos {
+      border-radius: 50%;
+      border-width: 5px;
+      border-style: solid;
+      border-color: blueviolet;
+  }
+  
+  h1{
+    font-family: 'Delicious Handrawn', cursive;
+    color:darkslategray;
+  }

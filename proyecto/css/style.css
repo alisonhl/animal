@@ -1,0 +1,168 @@
+.pinguino {
+  --pinguino-barriga: gray;
+  --pinguino-pico: yellow;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+}
+
+.pinguino-superior {
+top: 20%;
+left: 60%;
+background: grey;
+width: 48%;
+height: 60%;
+border-radius: 90% 90% 120% 100%;
+transform: rotate(49deg);
+}
+
+.pinguino-inferior {
+  top: 35%;
+  left: 25%;
+  background: grey;
+  width: 48%;
+  height: 90%;
+  border-radius: 59% 30% 120% 30%;
+  transform: rotate(45deg);
+  z-index: -1;
+  }
+
+.mano-derecha {
+top: 0%;
+left: -5%;
+background: grey;
+width: 30%;
+height: 60%;
+border-radius: 90% 30% 120% 100%;
+transform: rotate(45deg);
+z-index: -1;
+}
+
+.mano-izquierda {
+top: 0%;
+left: 70%;
+background: grey;
+width: 30%;
+height: 60%;
+border-radius: 120% 30% 100% 90%;
+transform: rotate(-45deg);
+z-index: -1;
+}
+
+.mejilla-derecha {
+top: 7%;
+left: 35%;
+background: white;
+width: 60%;
+height: 80%;
+border-radius: 70% 70% 60% 60%;
+}
+
+.mejilla-izquierda {
+top: 7%;
+left: 5%;
+background: white;
+width: 60%;
+height: 80%;
+border-radius: 70% 70% 60% 60%;
+}
+
+
+
+.pie-derecho {
+top: 85%;
+left: 29%;
+background: grey;
+width: 16%;
+height: 30%;
+border-radius: 50% 50% 50% 50%;
+transform: rotate(-77deg);
+z-index: -2222;
+}
+
+.pie-izquierdo {
+top: 85%;
+left: 10%;
+background: grey;
+width: 16%;
+height: 30%;
+border-radius: 50% 50% 50% 50%;
+transform: rotate(77deg);
+z-index: -2222;
+}
+
+.ojo-derecho {
+top: 19%;
+left: 60%;
+background: black;
+width: 15%;
+height: 17%;
+border-radius: 50%;
+}
+
+.ojo-izquierdo {
+top: 19%;
+left: 25%;
+background: black;
+width: 15%;
+height: 17%;
+border-radius: 50%;
+}
+
+.reflejo-ojos {
+top: 25%;
+left: 15%;
+background: white;
+width: 35%;
+height: 35%;
+border-radius: 50%;
+}
+
+.color-mejilla-derecha {
+top: 45%;
+left: 15%;
+background: pink;
+width: 15%;
+height: 10%;
+border-radius: 50%;
+}
+
+.color-mejilla-izquierda {
+top: 45%;
+left: 70%;
+background: pink;
+width: 15%;
+height: 10%;
+border-radius: 50%;
+}
+
+.pico-superior {
+top: 45%;
+left: 40%;
+background: black;
+width: 20%;
+height: 10%;
+border-radius: 50%;
+}
+
+.pico-inferior {
+top: 48%;
+left: 42%;
+background: black;
+width: 16%;
+height: 10%;
+border-radius: 90% 90% 30% 90%;
+transform: rotate(-80deg);
+
+}
+
+body {
+background:#c6faf1;
+}
+
+.pinguino * {
+position: absolute;
+}
